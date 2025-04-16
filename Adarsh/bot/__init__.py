@@ -4,6 +4,8 @@ import pyromod.listen
 from ..vars import Var
 from os import getcwd
 
+time.sleep(20)
+
 StreamBot = Client(
     name='Web Streamer',
     api_id=Var.API_ID,
